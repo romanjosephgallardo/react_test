@@ -1,13 +1,17 @@
-import Card from './Card.jsx'
+// Style React Components with CSS
+// -----------
+// 1. External -
+// 2. Modules - 
+// 3. Inline - 
+
+import Button from './Button/Button.jsx'
 
 function App() {
   return (
-    <>
-    <Card />
-    <Card />
-    </>
-
+    <Button/>
   );
 }
 
 export default App
+
+
