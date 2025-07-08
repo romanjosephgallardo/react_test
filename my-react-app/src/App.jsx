@@ -1,14 +1,14 @@
-// Style React Components with CSS
-// -----------
-// 1. External -
-// 2. Modules - 
-// 3. Inline - 
-
-import Button from './Button/Button.jsx'
+import Student from './Student.jsx'
 
 function App() {
   return (
-    <Button/>
+    <>
+      <Student name="Spongebob" age={30} isStudent={true}/>
+      <Student name="Patrick" age={31} isStudent={true}/>
+      <Student name="Squidward" age={50} isStudent={false}/>
+      <Student name="Sandy" age={39} isStudent={false}/>
+      <Student />
+    </>
   );
 }
 
